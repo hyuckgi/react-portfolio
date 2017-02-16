@@ -1,0 +1,35 @@
+.header{
+    background-color:rgba(0,0,0,0.9);
+    text-align:center;
+}
+
+.logo{
+    font-size:2em;
+    color:#fff;
+    line-height:2.3em;
+}
+
+.top_menu{
+    display:-webkit-flex;
+    display:-ms-flex;
+    display:flex;
+}
+
+.menu_item{
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+.menu_item a{
+    display:block;
+    box-sizing:border-box;
+    border-bottom:2px solid transparent;
+    color:#fff;
+    font-family:sans-serif;
+    line-height:2.5em;
+    font-weight:300;
+}
+
+.menu_item:hover a, .menu_item:active a{
+    border-bottom:2px solid #2fade7;
+}
