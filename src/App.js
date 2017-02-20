@@ -5,9 +5,11 @@ import './App.css';
 class App extends Component {
 
     render() {
+        const router = this.props.router;
+
         return (
           <div>
-              <Header/>
+              <Header router={router}/>
                {this.props.children}
           </div>
         );

@@ -1,10 +1,10 @@
 import AjaxCon from './AjaxCon/AjaxCon';
 import Home from './Home/Home';
-import Memopad from './Memopad/Memopad';
+import MemoPad from './MemoPad/MemoPad';
 
 
 export {
     AjaxCon,
     Home,
-    Memopad,
+    MemoPad,
 };

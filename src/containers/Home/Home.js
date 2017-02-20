@@ -35,13 +35,16 @@ class Home extends Component {
     }
 
     render() {
-        let ViewItem = this.state.listText.map((item, i) => (
+
+        const ViewItem = this.state.listText.map((item, i) => (
             <li className="view_item" key={i}>
                 <img src={item.src} alt="section_img"/>
                 <span className="cover"></span>
-                <p className="title">{ item.title }</p>
-                <p className="subscript">{ item.subscript }</p>
-                <Link to={ item.link }>한번 가볼까?</Link>
+                <div className="text_area">
+                    <p className="title">{ item.title }</p>
+                    <p className="subscript">{ item.subscript }</p>
+                    <Link to={ item.link }>한번 가볼까?</Link>
+                </div>
             </li>
         ));
 

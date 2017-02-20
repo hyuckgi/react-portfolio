@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { MemoList, MemoWrite } from '../../components';
-// import { connect } from 'react-redux';
+
 import memopad from "../../../img/memopad.jpg";
 
 class MemoPad extends Component {
@@ -14,6 +14,7 @@ class MemoPad extends Component {
             "minHeight" : "500px",
             "padding" : "5%"
         }
+
         return(
             <div className="memopad" style={memopadStyle}>
                 <MemoWrite />
@@ -22,6 +23,5 @@ class MemoPad extends Component {
         );
     }
 }
-
 
 export default MemoPad;
