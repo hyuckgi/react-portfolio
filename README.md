@@ -39,4 +39,4 @@ Your app is ready to be deployed!
 See the section about [deployment](#deployment) for more information.
 
 
-#### goTo deployment : [https://gaddokkwon.surge.sh] 
+#### goTo deployment : [https://gadokkwon.surge.sh] 
