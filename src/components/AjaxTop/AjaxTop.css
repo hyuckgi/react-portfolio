@@ -1,1 +1,17 @@
-.ajax_top{background:green;}
+.navigate {
+    position: relative;
+}
+
+.ui.button.navigate-right-button {
+    float: right;
+    margin: 0px;
+}
+
+.navigate-page-num {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size:1.5em;
+    color:#fff;
+    transform: translate(-50%, -50%);
+}

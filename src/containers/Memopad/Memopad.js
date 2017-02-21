@@ -11,7 +11,7 @@ class MemoPad extends Component {
             "backgroundImage" : 'url('+ memopad +')',
             "backgroundPosition" : "center center",
             "backgroundSize" : "cover",
-            "minHeight" : "500px",
+            "minHeight" : "1000px",
             "padding" : "5%"
         }
         return(

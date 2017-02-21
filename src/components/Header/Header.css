@@ -31,5 +31,9 @@
 }
 
 .menu_item:hover a, .menu_item a.active{
+    color: #fff;
     border-bottom:2px solid #2fade7;
+}
+.menu_item a:hover, .menu_item a:visited, .menu_item a:active{
+    color:#fff;
 }

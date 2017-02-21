@@ -4,12 +4,17 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import reducers from '../src/reducers';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+import Promise from 'promise-polyfill';
 
+import './index.css';
 
 import App from './App';
 import { Home, AjaxCon, MemoPad } from "./containers";
 
-import './index.css';
+
+if(!window.Promise){
+    window.Promise = Promise;
+}
 
 const store = createStore(reducers);
 

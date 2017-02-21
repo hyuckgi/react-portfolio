@@ -20,7 +20,6 @@ export default function memos(state = initialState, action) {
                 ]
             });
         case types.MEMO_REMOVE:
-            console.log(action);
             return update(state, {
                 $splice : [
                     [action.index, 1]
