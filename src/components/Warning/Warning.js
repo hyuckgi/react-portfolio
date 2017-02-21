@@ -30,8 +30,8 @@ class Warning extends Component {
 
         return (
             <div className="Warning-wrapper">
-                <div className={`Warning ${closing?'bounceOut':'bounceIn'} animated`}>
-                    {message}
+                <div className={`Warning ${closing ?'bounceOut':'bounceIn'} animated`}>
+                    { message }
                 </div>
             </div>
         );

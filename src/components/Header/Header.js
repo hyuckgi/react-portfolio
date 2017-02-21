@@ -16,7 +16,7 @@ const Header = (props) => {
     const {router} = props;
     return (
         <div className="header">
-            <p className="logo">React</p>
+            <p className="logo">React portfolio</p>
             <ul className="top_menu clearfix">
                 <MenuItem to={ "/" } active={router.isActive('/', true)}>Home</MenuItem>
                 <MenuItem to={ "/memopad" } active={router.isActive('/memopad')}>Memopad</MenuItem>

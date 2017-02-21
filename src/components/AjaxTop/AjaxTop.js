@@ -5,7 +5,7 @@ import './AjaxTop.css';
 const AjaxTop = ({onClick, postId, disabled}) => (
     <div className="navigate clearfix">
         <Button
-            color="teal"
+            color="linkedin"
             content="Previous"
             icon="left arrow"
             labelPosition="left"
@@ -18,7 +18,7 @@ const AjaxTop = ({onClick, postId, disabled}) => (
             {postId}
         </div>
         <Button
-            color="teal"
+            color="linkedin"
             content="Next"
             icon="right arrow"
             labelPosition="right"

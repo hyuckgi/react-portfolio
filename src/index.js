@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+import App from './App';
+import { Home, AjaxCon, MemoPad } from "./containers";
 import reducers from '../src/reducers';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
@@ -8,8 +10,8 @@ import Promise from 'promise-polyfill';
 
 import './index.css';
 
-import App from './App';
-import { Home, AjaxCon, MemoPad } from "./containers";
+
+
 
 
 if(!window.Promise){

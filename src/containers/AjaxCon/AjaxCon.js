@@ -108,7 +108,7 @@ class AjaxCon extends Component{
                     body={post.body}
                     comments={comments}
                 />
-            <Warning visible={warningVisibility}  message="That post does not exist" />
+                <Warning visible={warningVisibility}  message="That post does not exist" />
             </div>
         );
     }
