@@ -1,7 +1,15 @@
 
-### create-react-app 
+## boilerplate : create-react-app 
 
+### major dependencies 
+  * react-router : 3.0.2
+  * react-redux : 5.0.2
+  * axios : 0.15.3
+  * react-addons-update : 15.4.2
+  * react-timeago : 3.1.3
+  * semantic-ui-react : 0.65.0
 
+===================================================
 
 ## Available Scripts
 
